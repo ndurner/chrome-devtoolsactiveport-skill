@@ -1,0 +1,4 @@
+interface:
+  display_name: "Chrome via DevToolsActivePort"
+  short_description: "Broker-first Chrome CDP attach"
+  default_prompt: "Use $chrome-devtoolsactiveport to attach to a local Chrome profile through DevToolsActivePort, reusing an existing broker or starting one before any direct Chrome connection."
