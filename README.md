@@ -34,21 +34,14 @@ The repository root is the skill folder.
 
 ## Install
 
-Copy this repository folder into your Codex skills directory:
+### Codex
+Install this Skill by beginning the prompt with "/install", select the Skill Installer from the popup, and continue the prompt with:
+> Install the skill in ...
+(... = path to this skill folder).
 
-```powershell
-Copy-Item -Recurse `
-  "C:\dev\chrome-devtoolsactiveport-skill" `
-  "$HOME\.codex\skills"
-```
+Regarding model choice to run the installer, GPT-4.5 Mini is sufficient.
 
-On Windows with the default Codex layout, that typically means:
-
-```powershell
-Copy-Item -Recurse `
-  "C:\dev\chrome-devtoolsactiveport-skill" `
-  "C:\Users\<you>\.codex\skills"
-```
+After the installer is done, restart Codex.
 
 ## Typical Usage
 
