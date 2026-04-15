@@ -44,6 +44,9 @@ Regarding model choice to run the installer, GPT-4.5 Mini is sufficient.
 After the installer is done, restart Codex.
 
 ## Typical Usage
+Enable Remote Debugging in Chrome by entering the following in the address bar:
+> chrome://inspect/#remote-debugging
+Check the checkbox there.
 
 In Codex, begin the prompt with `$chrome`, select the "Chrome via DevToolActivePort" entry, and continue like so:
 > Open ndurner.de and retrieve the three latest blog posts.
