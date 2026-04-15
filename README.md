@@ -4,7 +4,8 @@ Codex skill for attaching to an existing local Chrome-family browser session thr
 
 ## What This Skill Does
 
-- attaches to an already running Chrome, Chromium, or Edge instance
+- attaches to an already running Chrome instance
+  - untested: Chromium, or Edge
 - reads `DevToolsActivePort` directly instead of relying on CDP HTTP discovery endpoints
 - constructs the browser websocket as `ws://127.0.0.1:PORT/PATH`
 - prefers a persistent local broker so repeated Codex runs do not keep triggering Chrome confirmation dialogs
